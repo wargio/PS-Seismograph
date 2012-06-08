@@ -20,7 +20,7 @@
 #include "Min.h"
 #include "Colors.h"
 #include "Image.h"
-#include "Font_Test_bin.h"
+#include "Font_Test_png.h"
 
 class Font:public Image{
 public:

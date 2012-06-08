@@ -6,11 +6,11 @@
 
 const char Alphabet[]={  'A','B','C','D','E','F','G','H','I','J','K','L','M'	//12
 			,'N','O','P','Q','R','S','T','U','V','W','X','Y','Z'	//13 (25)
-			,',','.',';','!','?',' '				//6  (31)
+			,'.','-',':','!','?',' '				//6  (31)
 			,'1','2','3','4','5','6','7','8','9','0'};		//10 (41)
 
 Font::Font(Minimum *g):Image(g){
-	LoadPNG_Buf(Font_Test_bin,Font_Test_bin_size,&P);
+	LoadPNG_Buf(Font_Test_png,Font_Test_png_size,&P);
 }
 
 void Font::Print(u32 x, u32 y, const char *txt, unsigned int Color){
