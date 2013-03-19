@@ -22,7 +22,7 @@ DATA		:=	data
 INCLUDES	:=	include
 
 TITLE		:=      PS Seismograph - Just a Strong Motion Seismometer
-APPID		:=      PSEISM0GR
+APPID		:=      PSEISM1GR
 PKGFILES	:=	$(CURDIR)/pkgfiles
 SFOXML		:=	$(CURDIR)/sfo.xml
 PIC1		:=	$(CURDIR)/pkgfiles/PIC1.PNG
@@ -41,7 +41,7 @@ LDFLAGS		=	$(MACHDEP) -Wl,-Map,$(notdir $@).map
 #---------------------------------------------------------------------------------
 # any extra libraries we wish to link with the project
 #---------------------------------------------------------------------------------
-LIBS	:=	-lgcm_sys -lrsx -lsysutil -lio -lm -lfreetype -lz -lpixman-1 -lrt -llv2 -lsysmodule -lpng -lpngdec -ljpgdec
+LIBS	:=	-lNoRSX -lgcm_sys -lrsx -lsysutil -lio -lm -lfreetype -lz -lpixman-1 -lrt -llv2 -lsysmodule -lpng -lpngdec -ljpgdec
 
 #---------------------------------------------------------------------------------
 # list of directories containing libraries, this must be the top level containing
@@ -122,7 +122,7 @@ $(BUILD):
 #---------------------------------------------------------------------------------
 clean:
 	@echo clean ...
-	@rm -fr $(BUILD) *.elf *.self *.pkg
+	@rm -fr $(BUILD) *.elf *.self *.pkg *~ */*~
 
 #---------------------------------------------------------------------------------
 run:

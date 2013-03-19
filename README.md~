@@ -2,7 +2,7 @@ PS Seismograph - a simple seismograph for PS3
 =============================================
 
 This is a Strong Motion Seismometer for ps3. it uses all the axis of the first controller.
-It Works on all TV!
+it uses 1920x1080 resolution, doesn't work on SD tv.
 
 This tool has been tested and can be considered as a low quality Strong Motion Seismometer.
 
@@ -14,8 +14,8 @@ Authors
 
 Changelog:
 -------
-	- 0.2.0 -
-		Updated to NoRSX 0.2.9 and added SD tv support. 1080p is still the best resolution for this homebrew 
+	- 0.0.1 -
+		Initial Version
 	- 0.1.9 -
 		Added Cross, Triangle and Square Buttons on the screen
 		Added Triangle button to allow people to see only a graph (if you press it 4 times it will show again everything)
@@ -24,11 +24,3 @@ Changelog:
 		Added better buttons control.
 		Added PIC1.PNG
 		Changed ICON0.PNG
-	- 0.0.1 -
-		Initial Version
-	
-I DO NOT OWN THE visitor.ttf	
--------
-
-credits goes to the guy who draw it.
-
