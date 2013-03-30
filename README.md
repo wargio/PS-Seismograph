@@ -14,6 +14,9 @@ Authors
 
 Changelog:
 -------
+	- 0.2.1 -
+		Updated to NoRSX 0.3.0 to fix mem leaks
+		Added timer. 
 	- 0.2.0 -
 		Updated to NoRSX 0.2.9 and added SD tv support. 1080p is still the best resolution for this homebrew 
 	- 0.1.9 -
