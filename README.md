@@ -14,6 +14,16 @@ Authors
 
 Changelog:
 -------
+	- 0.3.0 -
+		Added PS Move support
+		Fixed some mem bugs
+		Added function to write data
+		Added how to images
+		Added Message Dialog
+		Changed centi-secs to secs.
+		Added USB Support to write data function.
+		Fixed XMB Exit bug
+		
 	- 0.2.1 -
 		Updated to NoRSX 0.3.0 to fix mem leaks
 		Added timer. 
